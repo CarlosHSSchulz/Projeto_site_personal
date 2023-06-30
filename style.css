@@ -7,15 +7,16 @@
 body{
     font-family: 'Roboto', sans-serif;
 }
-.img_background{
-    background-image: url(./imagens/img_academia.jpg);
+/*.img_background{  
+    background-image: url(./imagens/img_academia.jpg) ;
     background-repeat: no-repeat;
     background-size: cover;
+    height: 100vh;
+    opacity: .2;
 }
 
-.menu-faketrigger{
-    display: none;
-}
+
+
 .menu-lines{
     display: none;
 }
@@ -31,27 +32,65 @@ body{
     max-width: 180px;
     max-height: 180px;
 }
+
 .img_logo a{
     text-decoration: none;
     color: black;
     font-size: 26px;
 }
-.navbar_logo{
-    display: flex;
-    padding: 20px;
+
+*/
+
+.navBar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    padding: 10px 90px;
+    background: rgba(0, 0, 0, 0.6);
+    border-bottom: 1px solid #fff;
 }
-.navbar_logo a{
-    text-decoration: none;
-    color: white;
-    font-weight: 500;
-    font-size: 18px;
-    padding: 10px;
+.navBar .logo{
+    padding: 22px 20px;
+    height: 80px;
+    float: left;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+}
+.navBar .logo a{
     list-style: none;
-    margin-right: 10px;
+    text-decoration: none;
+    color: #fff;
 }
-.navbar_logo a:hover{
-    background-color: black;
-    border-radius: 10px;
-    color: white;
-    transition: all ease .4s;
+.navBar .navbar_list{
+    list-style: none;
+    float: right;
+    display: flex;
+    
 }
+.navBar ul li a{
+    line-height: 80px;
+    color: #fff;
+    padding:12px 30px ;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+
+}
+.navBar ul li a:hover{
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 6px;
+}
+.first-section{
+    width: 100%;
+    height: 100vh;
+    background: url(./imagens/img_academia.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+
