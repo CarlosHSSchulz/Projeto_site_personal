@@ -36,7 +36,7 @@ body{
     list-style: none;
     float: right;
     display: flex;
-    
+    text-transform: uppercase;
 }
 .navBar ul li a{
     line-height: 80px;
@@ -60,7 +60,7 @@ body{
 }
 .first-section::after{
     content: "";
-  background: url(/imagens/img_academia.jpg);
+  background: url(./imagens/img_academia.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
